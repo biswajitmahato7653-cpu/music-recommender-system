@@ -167,13 +167,13 @@ st.markdown("""
     font-weight:900;
     text-align:center;
 
-    color:white;
-    -webkit-text-fill-color:white;
+    color:#ffd700;
+    -webkit-text-fill-color:#ffd700;
 
     text-shadow:
-        0 0 10px #00eaff,
-        0 0 25px #00eaff,
-        0 0 50px #00eaff;
+        0 0 10px #ffb300,
+        0 0 25px #ff8800,
+        0 0 50px #ff6600;
 }
 
 .terminal-box{
