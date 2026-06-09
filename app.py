@@ -180,14 +180,6 @@ st.markdown("""
     box-shadow:0 0 25px #00ff88;
 }
 
-.monitor-box{
-    background: rgba(0,0,0,.75);
-    padding: 20px;
-    border-radius: 20px;
-    border:2px solid cyan;
-    box-shadow:0 0 25px cyan;
-}
-
 /* Search input */
 .stTextInput input{
     background: rgba(0,0,0,.85);
@@ -268,35 +260,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ==========================
-# TERMINAL BOXES
-# ==========================
-left,right = st.columns([1,1])
-with left:
-    st.markdown(f"""
-    <div style='
-        background-image:url("https://direct-coffee-kpibh2wx.edgeone.app/wp6195787.jpg");
-        background-size: cover;
-        background-position: center;
-        height:200px;
-        border-radius:20px;
-        box-shadow:0 0 25px #00ff88;
-    '>
-    </div>
-    """, unsafe_allow_html=True)
-
-with right:
-    st.markdown(f"""
-    <div style='
-        background-image:url("https://direct-coffee-kpibh2wx.edgeone.app/wp6195787.jpg");
-        background-size: cover;
-        background-position: center;
-        height:200px;
-        border-radius:20px;
-        box-shadow:0 0 25px cyan;
-    '>
-    </div>
-    """, unsafe_allow_html=True)
 # ==========================
 # SEARCH
 # ==========================
