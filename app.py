@@ -166,10 +166,14 @@ st.markdown("""
     font-size:75px;
     font-weight:900;
     text-align:center;
-    background: linear-gradient(90deg,#00ff88,#00eaff,#7d7dff,#ff4df8);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    text-shadow:0 0 15px cyan,0 0 30px cyan,0 0 60px cyan;
+
+    color:white;
+    -webkit-text-fill-color:white;
+
+    text-shadow:
+        0 0 10px #00eaff,
+        0 0 25px #00eaff,
+        0 0 50px #00eaff;
 }
 
 .terminal-box{
