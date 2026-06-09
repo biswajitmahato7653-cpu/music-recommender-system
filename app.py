@@ -156,7 +156,7 @@ st.set_page_config(page_title="Song Recommender", layout="wide")
 st.markdown("""
 <style>
 .stApp{
-    background-image:url("https://direct-coffee-kpibh2wx.edgeone.app/wp6195787.jpg");
+    background-image:url("https://western-coral-p0y3n36o.edgeone.app/vecteezy_musical-instruments-sit-on-stage-with-blue-and-orange-smoke_71040881.jpeg");
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
