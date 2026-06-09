@@ -204,7 +204,7 @@ st.markdown("""
 
 /* Search button */
 .stButton button{
-    background:linear-gradient(90deg,#00eaff,#7d7fff);
+    background:linear-gradient(90deg,#ff9f1c,#ff6b00);
     color:white;
     border:none;
     border-radius:14px;
@@ -215,8 +215,8 @@ st.markdown("""
     height:55px !important;
     margin-top:0px !important;
 
-    box-shadow:0 0 10px cyan,
-               0 0 30px rgba(0,255,255,.5);
+    box-shadow:0 0 15px #ff9f1c,
+               0 0 35px #ff6b00;
 }
 
 .result-card{
