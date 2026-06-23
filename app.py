@@ -9,7 +9,7 @@ import requests
 try:
     songs_dict = pickle.load(open('songs_dict.pkl', 'rb'))
     df = pd.DataFrame(songs_dict)
-    similarity = pickle.load(open('similarity.pkl', 'rb'))
+    similarity = pickle.load(open('similarity.pkl', 'rb')) 
 except:
     df = pd.read_csv("chatbot_song_dataset_500plus.csv")
 
